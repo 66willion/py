@@ -9,3 +9,5 @@ fp=open('D:/text.txt',a+)
 print('hello world',file=fp)
 #关闭fp文件
 fp.close()
+#不进行换行输出
+print("hello","world","Python")
