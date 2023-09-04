@@ -1,0 +1,13 @@
+#转义字符
+print('hello\nworld')#会分两行输出
+print('hello\tworld')#中间会加一个制表符
+print('helloooo\tworld')
+print('hello\rworld')
+print('hello\bworld')
+print("http:\\\\www.baidu.com")
+print('老师说\'大家好\'')
+#原字符，不希望原来的转义字符起作用，就是在字符串前面加一个r或R
+print(r'hello\rworld')
+#原字符最后一位不能是\
+#print(r'hello\rworld\')
+print(r'hello\rworld\\')
